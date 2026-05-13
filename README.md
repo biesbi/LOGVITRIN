@@ -33,6 +33,22 @@ docs/
 tasks/
 ```
 
+## Backend Çalıştırma
+
+```bash
+cd backend
+npm install
+cp .env.example .env
+npm run start:dev
+```
+
+### Backend Test
+
+```bash
+cd backend
+npm run test:e2e
+```
+
 ## Çalışma Kuralı
 
 Her geliştirme GitHub issue üzerinden yapılır. Her issue için ayrı branch açılır ve iş tamamlanınca pull request oluşturulur. PR onaylanmadan main branch'e merge yapılmaz.
