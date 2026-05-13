@@ -1,0 +1,18 @@
+# Monorepo
+node_modules/
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# OS/Editor
+.DS_Store
+.vscode/
+.idea/
