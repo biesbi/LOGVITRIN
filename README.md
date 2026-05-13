@@ -36,3 +36,19 @@ tasks/
 ## Çalışma Kuralı
 
 Her geliştirme GitHub issue üzerinden yapılır. Her issue için ayrı branch açılır ve iş tamamlanınca pull request oluşturulur. PR onaylanmadan main branch'e merge yapılmaz.
+
+## Frontend Kurulum ve Çalıştırma
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Hazır route'lar:
+- /login
+- /register
+- /admin
+- /customer
+- /warehouse
+- /worker
