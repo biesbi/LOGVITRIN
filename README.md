@@ -49,6 +49,23 @@ cd backend
 npm run test:e2e
 ```
 
+## Frontend Çalıştırma
+
+Frontend ekranları şu anda mock data ile çalışır. Depo çalışanı mobil görev akışı `/worker` route'u üzerindedir.
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Frontend Build
+
+```bash
+cd frontend
+npm run build
+```
+
 ## Çalışma Kuralı
 
 Her geliştirme GitHub issue üzerinden yapılır. Her issue için ayrı branch açılır ve iş tamamlanınca pull request oluşturulur. PR onaylanmadan main branch'e merge yapılmaz.
